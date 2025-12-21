@@ -1,0 +1,79 @@
+.main-container {
+  background-color: #07080c;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.speedometer-image {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.speed-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.description-text {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.brake-button {
+  background-color: transparent;
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #94a3b8;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .speedometer-image {
+    width: 50%;
+  }
+}
