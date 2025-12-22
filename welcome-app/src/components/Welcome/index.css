@@ -1,0 +1,53 @@
+.main-container {
+  background-color: #1e293b;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.welcome-text {
+  color: #f0bb03;
+  font-family: Bree Serif;
+  font-size: 62px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.welcome-message-text {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.subscribe-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: Bree Serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-text {
+    font-size: 70px;
+  }
+
+  .welcome-message-text {
+    font-size: 30px;
+  }
+
+  .subscribe-button {
+    font-size: 22px;
+  }
+}
