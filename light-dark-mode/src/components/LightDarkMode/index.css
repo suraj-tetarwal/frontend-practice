@@ -1,0 +1,57 @@
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000000;
+}
+
+.dark-card {
+  background-color: #000000;
+}
+
+.text {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dark-text {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 26px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+}
